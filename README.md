@@ -1,6 +1,8 @@
 # Clawn-Brand
 Projeto acadêmico do colégio CEEP Pedro Boaretto Neto - Cascavel
+
 *Membros da equipe:*
+
 André F. de Andrade Nº3
 
 Brayan T. Uhry Nº5
