@@ -1,0 +1,121 @@
+.backgroundCornersL {
+	position: absolute;
+	top: 42%;
+	z-index: -100;
+	left: -2vw;
+}
+.backgroundCornersR {
+	position: absolute;
+	right: 0;
+	top: 42%;
+	z-index: -100;
+}
+.backgroundCorner3 {
+	height: 6vw;
+	margin-bottom: 4vw;
+}
+
+.topBar {
+	margin: 1vw;
+}
+
+#closeIcon {
+	float: right;
+	cursor: pointer;
+}
+
+.infoLabelBox {
+	margin-left: 1vw;
+}
+
+.orderMenu {
+	display: flex;
+	width: fit-content;
+	margin-left: 1vw;
+	margin-bottom: 0.5vw;
+	cursor: pointer;
+}
+
+.cartConteiner {
+	overflow: auto;
+	height: 54vh;
+}
+
+.productBox {
+	background-color: #e8e8e8;
+	margin: 0 2vw;
+	margin-bottom: 1.5vw;
+	padding: 0.8vw;
+	border-radius: 10px;
+}
+
+.productBox2 {
+	display: inline-flex;
+	align-items: flex-start;
+}
+
+#productImage {
+	height: 120px;
+	width: 120px;
+	margin: 0 1vw;
+	background-color: white;
+	padding: 4px;
+	border-radius: 4px;
+}
+
+.attributesBox1 {
+	display: inline-block;
+}
+
+.attributesBox1 h1 {
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 2vw;
+}
+
+.attributesBox2 {
+	display: flex;
+}
+
+.attributesBox2 div {
+	margin-right: 10vw;
+}
+
+.attributesBox2 h2 {
+	font-weight: bold;
+}
+
+.actionsBox {
+	float: right;
+}
+
+.actionsBox img {
+	height: 2vw;
+	width: 2vw;
+	cursor: pointer;
+}
+
+.bottomConteiner {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	align-items: center;
+	width: 100%;
+	background-color: #c6c6c6;
+	height: 10vh;
+}
+.bottomButton {
+	background-color: #87b1d4;
+	padding: 10px;
+	width: 240px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 25px;
+}
+.bottomBack {
+	display: flex;
+	position: absolute;
+	right: 0;
+}

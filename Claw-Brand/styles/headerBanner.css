@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+.headerBanner {
+	background-color: #e7e9ee;
+	display: flex;
+}
+
+#headerCornerBL {
+	height: 12vw;
+	position: absolute;
+	top: 6vw;
+}
+#headerCornerUR {
+	height: 12vw;
+	position: absolute;
+	right: 0;
+}
+
+#headerLogo {
+	height: 18vw;
+	margin-left: 2vw;
+}
+
+#headerSlogan {
+	font-size: 2vw;
+	font-weight: bolder;
+	margin-left: 20vw;
+	align-self: center;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+}
+
+@media only screen and (max-width: 720px) {
+	#headerSlogan {
+		font-size: 3vw;
+		margin-left: 15vw;
+	}
+}
+
+/*Navigator Bar*/
+
+.headerNavbar {
+	float: right;
+	display: flex;
+	align-items: center;
+	margin-top: -36px;
+	margin-bottom: 1vw;
+}
+
+.navBar {
+	list-style-type: none;
+	background-color: #2f3037;
+	margin-right: -50px;
+	padding-right: 40px;
+	border-radius: 10px;
+}
+
+.navBar ul {
+	display: flex;
+}
+
+.navBar ul li a {
+	display: block;
+	color: white;
+	font-size: 14px;
+	padding: 14px 20px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+.navBar ul li a:hover {
+	color: black;
+	background: white;
+}
+
+.headerNavbar img {
+	height: 70px;
+}
