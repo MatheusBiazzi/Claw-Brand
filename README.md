@@ -1,5 +1,5 @@
 # Clawn-Brand
-Projeto acadêmico do colégio CEEP Pedro Boaretto Neto - Cascavel
+Projeto acadêmico do CEEP Pedro Boaretto Neto - Cascavel
 
 *Membros da equipe:*
 
