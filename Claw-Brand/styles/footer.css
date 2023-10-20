@@ -9,7 +9,7 @@ footer h1 {
 	padding: 2rem;
 	align-items: center;
 	justify-content: space-between;
-	width: 90%;
+	width: 100vw;
 }
 .footerConteiner h1 {
 	font-size: 130%;
