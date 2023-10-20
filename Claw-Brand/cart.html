@@ -7,7 +7,7 @@
 		<link rel="icon" href="images/claw.png" />
 		<link rel="stylesheet" href="./styles/reset.css" />
 		<link rel="stylesheet" href="./styles/navbar.css" />
-		<link rel="stylesheet" href="./styles/home.css" />
+		<link rel="stylesheet" href="./styles/general.css" />
 		<link rel="stylesheet" href="./styles/cart.css" />
 		<link rel="stylesheet" href="./styles/footer.css" />
 	</head>
@@ -15,7 +15,7 @@
 		<div class="pageContent">
 			<header>
 				<div class="headerNavbar">
-					<a href="./index.html"><img src="images/banner3.png" width="125px" /></a>
+					<a href="./index.html"><img src="images/banner3.png" /></a>
 					<nav>
 						<ul>
 							<li><a href="./index.html">Home</a></li>
@@ -41,7 +41,7 @@
 
 				<div class="searchBar">
 					<img src="images/search.svg" />
-					<form action="#">
+					<form>
 						<input type="text" placeholder="Qual produto está procurando" name="search" />
 					</form>
 				</div>
@@ -51,45 +51,74 @@
 					<h1>Ordenar</h1>
 				</div>
 
+				<div class="backgroundCornersL">
+					<img class="backgroundCorner3" src="images/corner3L.png" />
+					<br />
+					<img class="backgroundCorner3" src="images/corner3L.png" />
+					<br />
+					<img class="backgroundCorner3" src="images/corner3L.png" />
+				</div>
+				<div class="backgroundCornersR">
+					<img class="backgroundCorner3" src="images/corner3R.png" />
+					<br />
+					<img class="backgroundCorner3" src="images/corner3R.png" />
+					<br />
+					<img class="backgroundCorner3" src="images/corner3R.png" />
+				</div>
+
 				<div class="cartConteiner">
-					<div class="backgroundCornersL">
-						<img class="backgroundCorner3" src="images/corner3L.png" />
-						<br />
-						<img class="backgroundCorner3" src="images/corner3L.png" />
-						<br />
-						<img class="backgroundCorner3" src="images/corner3L.png" />
-					</div>
-					<div class="backgroundCornersR">
-						<img class="backgroundCorner3" src="images/corner3R.png" />
-						<br />
-						<img class="backgroundCorner3" src="images/corner3R.png" />
-						<br />
-						<img class="backgroundCorner3" src="images/corner3R.png" />
+					<div class="productBox">
+						<input type="checkbox" />
+						<img id="productImage" src="products/1.png" />
+						<div class="attributesBox1">
+							<h1>Gatuno</h1>
+							<div class="attributesBox2">
+								<div>
+									<h2>Cor:</h2>
+									<p>Branco</p>
+								</div>
+								<div>
+									<h2>Quantidade:</h2>
+									<p>N</p>
+								</div>
+								<div>
+									<h2>Valor unitário:</h2>
+									<p>150,00</p>
+								</div>
+								<div>
+									<h2>Valor total:</h2>
+									<p>X</p>
+								</div>
+							</div>
+						</div>
+						<div class="actionsBox">
+							<img src="images/delete.svg" />
+							<img src="images/edit.svg" />
+							<img src="images/more_vert.svg" />
+						</div>
 					</div>
 
 					<div class="productBox">
-						<div class="productBox2">
-							<input type="checkbox" />
-							<img id="productImage" src="products/1.png" />
-							<div class="attributesBox1">
-								<h1>Gatuno</h1>
-								<div class="attributesBox2">
-									<div>
-										<h2>Cor:</h2>
-										<p>Branco</p>
-									</div>
-									<div>
-										<h2>Quantidade:</h2>
-										<p>N</p>
-									</div>
-									<div>
-										<h2>Valor unitário:</h2>
-										<p>150,00</p>
-									</div>
-									<div>
-										<h2>Valor total:</h2>
-										<p>X</p>
-									</div>
+						<input type="checkbox" />
+						<img id="productImage" src="products/2.png" />
+						<div class="attributesBox1">
+							<h1>Gatuno</h1>
+							<div class="attributesBox2">
+								<div>
+									<h2>Cor:</h2>
+									<p>Preto</p>
+								</div>
+								<div>
+									<h2>Quantidade:</h2>
+									<p>N</p>
+								</div>
+								<div>
+									<h2>Valor unitário:</h2>
+									<p>150,00</p>
+								</div>
+								<div>
+									<h2>Valor total:</h2>
+									<p>X</p>
 								</div>
 							</div>
 						</div>
@@ -99,29 +128,28 @@
 							<img src="images/more_vert.svg" />
 						</div>
 					</div>
+
 					<div class="productBox">
-						<div class="productBox2">
-							<input type="checkbox" />
-							<img id="productImage" src="products/2.png" />
-							<div class="attributesBox1">
-								<h1>Gatuno</h1>
-								<div class="attributesBox2">
-									<div>
-										<h2>Cor:</h2>
-										<p>Preto</p>
-									</div>
-									<div>
-										<h2>Quantidade:</h2>
-										<p>N</p>
-									</div>
-									<div>
-										<h2>Valor unitário:</h2>
-										<p>150,00</p>
-									</div>
-									<div>
-										<h2>Valor total:</h2>
-										<p>X</p>
-									</div>
+						<input type="checkbox" />
+						<img id="productImage" src="products/6.png" />
+						<div class="attributesBox1">
+							<h1>Eagle</h1>
+							<div class="attributesBox2">
+								<div>
+									<h2>Cor:</h2>
+									<p>Preto</p>
+								</div>
+								<div>
+									<h2>Quantidade:</h2>
+									<p>N</p>
+								</div>
+								<div>
+									<h2>Valor unitário:</h2>
+									<p>200,00</p>
+								</div>
+								<div>
+									<h2>Valor total:</h2>
+									<p>X</p>
 								</div>
 							</div>
 						</div>
@@ -131,61 +159,28 @@
 							<img src="images/more_vert.svg" />
 						</div>
 					</div>
+
 					<div class="productBox">
-						<div class="productBox2">
-							<input type="checkbox" />
-							<img id="productImage" src="products/6.png" />
-							<div class="attributesBox1">
-								<h1>Eagle</h1>
-								<div class="attributesBox2">
-									<div>
-										<h2>Cor:</h2>
-										<p>Preto</p>
-									</div>
-									<div>
-										<h2>Quantidade:</h2>
-										<p>N</p>
-									</div>
-									<div>
-										<h2>Valor unitário:</h2>
-										<p>200,00</p>
-									</div>
-									<div>
-										<h2>Valor total:</h2>
-										<p>X</p>
-									</div>
+						<input type="checkbox" />
+						<img id="productImage" src="products/MB_Sapo_sd.png" />
+						<div class="attributesBox1">
+							<h1>Sapo</h1>
+							<div class="attributesBox2">
+								<div>
+									<h2>Cor:</h2>
+									<p>Branco</p>
 								</div>
-							</div>
-						</div>
-						<div class="actionsBox">
-							<img src="images/delete.svg" />
-							<img src="images/edit.svg" />
-							<img src="images/more_vert.svg" />
-						</div>
-					</div>
-					<div class="productBox">
-						<div class="productBox2">
-							<input type="checkbox" />
-							<img id="productImage" src="products/MB_Sapo_sd.png" />
-							<div class="attributesBox1">
-								<h1>Sapo</h1>
-								<div class="attributesBox2">
-									<div>
-										<h2>Cor:</h2>
-										<p>Branco</p>
-									</div>
-									<div>
-										<h2>Quantidade:</h2>
-										<p>N</p>
-									</div>
-									<div>
-										<h2>Valor unitário:</h2>
-										<p>200,00</p>
-									</div>
-									<div>
-										<h2>Valor total:</h2>
-										<p>X</p>
-									</div>
+								<div>
+									<h2>Quantidade:</h2>
+									<p>N</p>
+								</div>
+								<div>
+									<h2>Valor unitário:</h2>
+									<p>200,00</p>
+								</div>
+								<div>
+									<h2>Valor total:</h2>
+									<p>X</p>
 								</div>
 							</div>
 						</div>

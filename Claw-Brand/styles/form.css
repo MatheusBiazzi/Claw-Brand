@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Kufam:wght@700&family=Questrial&display=swap");
 
 #BackgroundCornerBL {
-	height: 16vw;
+	height: 18em;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 }
 #BackgroundCornerUR {
-	height: 16vw;
+	height: 18em;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -23,33 +23,32 @@
 }
 
 .loginBox img {
-	width: 36vw;
-	margin-bottom: 2vw;
+	width: 36em;
+	margin-bottom: 2rem;
 }
 
 .loginBox p {
 	font-family: "Questrial", sans-serif;
-	font-size: 3.5vw;
-	padding: 20px;
-	margin-bottom: 2vw;
+	font-size: 320%;
+	padding: 1rem;
+	margin-bottom: 1rem;
 }
 
 #loginForm {
-	padding: 1vw;
+	padding: 1rem;
 	background-color: #e8e8e8;
 	border: 6px solid #7a7979;
 	border-radius: 50px;
 }
 
 .formInput {
-	width: 36vw;
-	font-size: 1vw;
+	width: 40em;
 	text-align: center;
 	background-color: #979797;
-	padding: 0.8vw;
+	padding: 0.8rem;
 	border: 1px solid #979797;
 	border-radius: 100px;
-	margin: 0.5vw;
+	margin: 0.5rem;
 }
 ::placeholder {
 	color: #c7c7c8;
@@ -66,12 +65,12 @@ a {
 }
 
 #submitButton {
-	font-size: 1.5vw;
+	font-size: 140%;
 	color: #979797;
 	font-family: "Kufam", sans-serif;
 	border: 1px solid #979797;
 	border-radius: 100px;
 	background-color: #ffffff;
-	padding: 1.5vw;
-	padding-bottom: 1vw;
+	padding: 1.5rem;
+	padding-bottom: 1rem;
 }

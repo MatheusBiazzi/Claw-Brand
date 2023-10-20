@@ -6,30 +6,30 @@ footer h1 {
 .footerConteiner {
 	background-color: #6a8ba7;
 	display: flex;
-	padding: 2vw;
+	padding: 2rem;
 	align-items: center;
 	justify-content: space-between;
+	width: 100%;
 }
-
 .footerConteiner h1 {
-	font-size: 22px;
-	margin-bottom: 7px;
+	font-size: 130%;
+	margin-bottom: 0.5rem;
 }
 
 .footerBox img {
-	height: 60px;
+	height: 4em;
 }
 
 .footerBox1 nav ul {
 	list-style-type: none;
 }
 .footerBox1 nav ul li {
-	margin: 5px;
+	margin: 0.5rem;
 }
 .footerBox1 nav ul li a {
 	text-decoration: none;
 	color: white;
-	font-size: 13px;
+	font-size: 90%;
 }
 
 .footerBox2 {
@@ -41,25 +41,37 @@ footer h1 {
 	display: flex;
 }
 .footerBox2Inner img {
-	height: 30px;
+	height: 1.6em;
+	margin-right: 0.2rem;
 }
 
 .footerBox3 {
 	text-align: center;
 	min-width: fit-content;
 }
-.footerBox3 h1 {
-	font-size: 16px;
-}
 .footerBox3 img {
-	width: 90px;
+	width: 6em;
 }
 
 .footerBoxBottom {
 	background-color: #5f7b92;
 	text-align: center;
-	padding: 1vw;
+	padding: 1rem;
 }
 .footerBoxBottom p {
-	font-size: 11px;
+	font-size: 0.7em;
+}
+
+@media only screen and (max-width: 1064px) {
+	.footerConteiner {
+		flex-direction: column;
+	}
+	.footerConteiner div {
+		margin-bottom: 1rem;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.footerBox img {
+		height: 3em;
+	}
 }

@@ -6,14 +6,33 @@
 		<title>Página Inicial - Claw Brand</title>
 		<link rel="icon" href="images/claw.png" />
 		<link rel="stylesheet" href="./styles/reset.css" />
-		<link rel="stylesheet" href="./styles/headerBanner.css" />
-		<link rel="stylesheet" href="./styles/home.css" />
-		<link rel="stylesheet" href="./styles/productBox.css" />
+		<link rel="stylesheet" href="./styles/navbar.css" />
+		<link rel="stylesheet" href="./styles/banner.css" />
+		<link rel="stylesheet" href="./styles/general.css" />
+		<link rel="stylesheet" href="./styles/product.css" />
 		<link rel="stylesheet" href="./styles/footer.css" />
 	</head>
 
 	<body>
 		<header>
+			<div class="headerNavbar">
+				<a href="./index.html"><img src="images/banner3.png" /></a>
+				<input type="checkbox" id="toggle" />
+				<label for="toggle" class="hamburger-icon">
+					<div></div>
+					<div></div>
+					<div></div>
+				</label>
+				<nav>
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./favorites.html">Favoritos</a></li>
+						<li><a href="./cart.html">Carrinho</a></li>
+						<li><a href="./login.html">Entrar</a></li>
+					</ul>
+				</nav>
+			</div>
+
 			<div class="headerBanner">
 				<img id="headerLogo" src="images/banner.png" />
 				<img id="headerCornerBL" src="images/cornerBL.png" />
@@ -24,8 +43,8 @@
 				</h1>
 			</div>
 
-			<div class="headerNavbar">
-				<nav class="navBar">
+			<div class="bannerNavbar">
+				<nav>
 					<ul>
 						<li><a href="./index.html">Home</a></li>
 						<li><a href="./favorites.html">Favoritos</a></li>
@@ -39,49 +58,49 @@
 		<main>
 			<div class="searchBar">
 				<img src="images/search.svg" />
-				<form action="#">
+				<form>
 					<input type="text" placeholder="Digite aqui o que está buscando..." name="search" />
 				</form>
 			</div>
 
 			<div class="highlightConteiner">
-				<div class="highlightHeader">
+				<div id="highlightHeader">
 					<img src="images/eagle.png" />
 					<h1>destaques</h1>
 				</div>
-				<div class="highlightLines">
+				<div id="highlightLines">
 					<hr id="highlightLine1" />
 					<hr id="highlightLine2" />
 				</div>
 			</div>
 
 			<div class="productConteiner">
-				<div class="productBox">
+				<div>
 					<img src="products/MB_Corvo_sd.png" />
 					<h1>Corvo</h1>
 					<p>R$ 200,00</p>
 				</div>
-				<div class="productBox">
+				<div>
 					<img src="products/MB_Macaco_c.png" />
 					<h1>Macaco Estampa</h1>
 					<p>R$ 200,00</p>
 				</div>
-				<div class="productBox">
+				<div>
 					<img src="products/MB_Rato-Oriental_c.png" />
 					<h1>Rato Oriental Estampa</h1>
 					<p>R$ 200,00</p>
 				</div>
-				<div class="productBox">
+				<div>
 					<img src="products/MB_Rato-Oriental_sd.png" />
 					<h1>Rato Oriental</h1>
 					<p>R$ 200,00</p>
 				</div>
-				<div class="productBox">
+				<div>
 					<img src="products/MB_Rato-Violão_sd.png" />
 					<h1>Rato Violão</h1>
 					<p>R$ 200,00</p>
 				</div>
-				<div class="productBox">
+				<div>
 					<img src="products/MB_Sapo_sd.png" />
 					<h1>Sapo</h1>
 					<p>R$ 200,00</p>
