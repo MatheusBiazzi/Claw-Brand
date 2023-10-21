@@ -30,7 +30,9 @@ footer h1 {
 	color: white;
 	font-size: 90%;
 }
-
+.footerBox1 nav ul li a:hover {
+	text-decoration: underline;
+}
 .footerBox2 {
 	min-width: fit-content;
 }

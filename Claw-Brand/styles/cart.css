@@ -1,18 +1,18 @@
 .backgroundCornersL {
 	position: absolute;
-	top: 42%;
+	top: 38%;
 	z-index: -100;
-	left: -2vw;
+	left: -1vw;
 }
 .backgroundCornersR {
 	position: absolute;
 	right: 0;
-	top: 42%;
+	top: 38%;
 	z-index: -100;
 }
 .backgroundCorner3 {
 	height: 6vw;
-	margin-bottom: 4vw;
+	margin-bottom: 6em;
 }
 
 .topBar {
