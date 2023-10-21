@@ -5,12 +5,14 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	z-index: -100;
 }
 #BackgroundCornerUR {
 	height: 18em;
 	position: absolute;
 	right: 0;
 	top: 0;
+	z-index: -100;
 }
 
 .loginBox {
@@ -73,4 +75,52 @@ a {
 	background-color: #ffffff;
 	padding: 1.5rem;
 	padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+	#BackgroundCornerBL {
+		height: 12em;
+	}
+	#BackgroundCornerUR {
+		height: 12em;
+	}
+	.loginBox img {
+		width: 24em;
+		margin-bottom: 1rem;
+	}
+	.loginBox p {
+		font-size: 270%;
+		padding: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	#loginForm {
+		padding: 0.5rem;
+	}
+	.formInput {
+		width: 70vw;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	#BackgroundCornerBL {
+		height: 10em;
+	}
+	#BackgroundCornerUR {
+		height: 10em;
+	}
+	.loginBox img {
+		width: 98vw;
+		margin-bottom: 1rem;
+	}
+	.loginBox p {
+		font-size: 220%;
+		padding: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	#loginForm {
+		padding: 1.4rem 0.2rem;
+	}
+	.formInput {
+		width: 90vw;
+	}
 }
